@@ -14,7 +14,7 @@ spec:
         app: argocd-app
     spec:
       containers:
-        - image: iyuichivm/java
+        - image: iyuichivm/java-app
           name: argocd-app
           ports:
             - containerPort: 8080
